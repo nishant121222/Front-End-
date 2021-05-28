@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        HTML target Attribute 
+    </title> 
+</head> 
+  
+<body> 
+    <center> 
+        <h1>NISHANT</h1> 
+  
+        <h2>HTML Target Attribute</h2> 
+  
+        <p>Welcome to 
+            <a href="https://ide.WIKIPEDIA.org/"
+                    id="GFG" target="_self"> 
+                NISHANT
+            </a> 
+        </p> 
+    </center> 
+</body> 
+  
+</html> 
