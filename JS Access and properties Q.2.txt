@@ -1,0 +1,23 @@
+var obj1 = { which : "obj1" },
+obj2 = { which : "obj2" };
+
+function execute(arg1, arg2){
+    console.log(this.which, arg1, arg2);
+}
+
+//using call
+execute.call(obj1, "dan", "stanhope");
+//output: obj1 dan stanhope
+
+//using apply
+execute.apply(obj2, ["dan", "stanhope"]);
+//output: obj2 dan stanhope
+
+//using old school
+execute("dan", "stanhope");
+
+
+What is the difference between call and apply functions?
+
+
+The difference is that call() takes the function arguments separately, and apply() takes the function arguments in an array. CALL : A function with argument provide individually. If you know the arguments to be passed or there are no argument to pass you can use call.

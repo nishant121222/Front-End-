@@ -1,0 +1,13 @@
+var count = 1;
+var button = document.querySelector("#increment");
+
+button.addEventListener("click", function() {
+  var increment = document.getElementById("#count");
+  increment.value = count;
+  count++;
+});
+<h4>Current count: <span id="count">0</span></h4>
+<div class="container">
+  <button id="decrement">Decrement</button>
+  <button id="increment">Increment</button>
+</div>
