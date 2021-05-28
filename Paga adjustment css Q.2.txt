@@ -1,0 +1,21 @@
+function demoDisplay() {
+  document.getElementById("myP1").style.display = "none";
+}
+
+function demoVisibility() {
+  document.getElementById("myP2").style.visibility = "hidden";
+}
+
+
+
+
+Toggle between hiding and showing an element:
+
+function myFunction() {
+  var x = document.getElementById('myDIV');
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  } else {
+    x.style.display = 'none';
+  }
+}
